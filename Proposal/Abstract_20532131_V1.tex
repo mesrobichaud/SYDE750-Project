@@ -1,0 +1,67 @@
+
+\documentclass[12pt]{amsart}
+\usepackage{geometry} % see geometry.pdf on how to lay out the page. There's lots.
+\geometry{letterpaper} % or letter or a5paper or ... etc
+% \geometry{landscape} % rotated page geometry
+
+% See the ``Article customise'' template for come common customisations
+
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\@maketitle}
+  {\ifx\@empty\@dedicatory}
+  {\ifx\@empty\@date \else {\vskip3ex \centering\footnotesize\@date\par\vskip1ex}\fi
+   \ifx\@empty\@dedicatory}
+  {}{}
+\patchcmd{\@adminfootnotes}
+  {\ifx\@empty\@date\else \@footnotetext{\@setdate}\fi}
+  {}{}{}
+\makeatother
+
+
+\title{Neurobiology underlying interpretive biases in information processing and decision-making}
+\title{Information processing in the adult brain: implications for interpretive biases underlying false belief persistence}
+\author{Matthew Robichaud}
+\date{February 14, 2020} % delete this line to display the current date
+
+%%% BEGIN DOCUMENT
+\begin{document}
+
+
+\maketitle
+\section{Basal Assumptions}
+The individual neurons responsible for representing physical quantities have been shown to each be sensitive to a single particular stimulus.
+In a neural ensemble, the diversity of individual neuron tuning enables complete representation of a class of physical stimuli. \\
+
+In representing higher order information, the brain is unable to carry out such a complete representation of all possibilities. 
+In order to learn or develop ideas and beliefs, it must reject alternative representations in favour of a single connectivity network between symbolic objects. 
+In order to believe a rule or working principle in information processing and decision-making, we implicitly reject other possible outcomes, or transformations. \\ 
+
+Although this ability to collapse possible connectivities into one belief enables the brain to function efficiently and coherently, most beliefs are formed without complete information and thus should be revised and reformed constantly, consistent with new information and real-world feedback. \\
+
+\section{Hypothesis}
+The neurobiological structure of these logical constructs acts to limit the potential for change and adaptation when presented with information that contradicts existing frameworks. \\
+{\small Note: Role of predictive coding? Is it possible that prediction error is biased/underestimated because of above.} \\
+\subsection{Motivation}
+I'm interested in how neural representation, which works so well for colours, position, velocity, etc., "scales up" to strong ideas or beliefs, and the resulting limitations when the world is now viewed from the lens of these belief systems. I hope to use these findings as a means of explaining cognitive biases that have been observed in human information processing and rationality.
+\subsection{Connection to Behaviour and Cognitive Science}
+It would be interesting to explore a number of cognitive biases related to the problem statement outlined above: 
+\begin{itemize}
+\item {\bf Primacy effect}: earlier items in a series leave a stronger memory trace: seeing the initial evidence, people form a working hypothesis that affects how they interpret the rest of the information.
+\item {\bf Semmelweis reflex}: the tendency to reject new evidence or new knowledge because it contradicts established norms, beliefs, or paradigms.
+\item {\bf Continued influence effect}: the tendency to believe previously learned misinformation even after it has been corrected.
+\item {\bf Backfire effect}: given evidence against their beliefs, people can reject the evidence and believe even more strongly.
+\begin{itemize}
+\item {\bf Boomerang effect}: unintended consequences of an attempt to persuade someone resulting in the adoption of an opposing position instead. \end{itemize}
+\item {\bf Sunk cost fallacy}: tendency to consistently continue a chosen course with negative outcomes rather than alter it.
+\item {\bf Curse of knowledge}: an individual unknowingly assumes that others have the background to understand.
+
+\end{itemize}
+\section{Further Reading}
+\begin{enumerate}
+\item Korteling JE, Brouwer A-M, Toet A. A neural network framework for cognitive bias. Front Psychol. 2018;9(SEP). doi:10.3389/fpsyg.2018.01561 \\ See: {\it Compatibility Principle} \\``[ . . .] neural networks are more easily activated by stimulus patterns that are more congruent with their established connectionist properties" \\
+\item Losin EAR, Dapretto M, Iacoboni M. Culture in the mind’s mirror: how anthropology and neuroscience can inform a model of the neural substrate for cultural imitative learning. Prog Brain Res. 2009;178(C):175-190. doi:10.1016/S0079-6123(09)17812-3
+\end{enumerate} 
+
+
+\end{document}
