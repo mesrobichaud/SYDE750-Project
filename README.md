@@ -2,6 +2,6 @@
 
 The classic A-B, A-C paired associates experiment was implemented using Nengo (www.nengo.ai) and the Semantic Pointer Architecture. 
 
-Here, the superposition of semantic pointers was used to minimize retroactive interference without increasing system complexity or memory requirements. This takes advantage of the distributive property of circular convolution (Crawford et al. 2016). 
+Here, the superposition of semantic pointers was used to minimize retroactive interference without increasing system complexity or memory requirements. This takes advantage of the distributive property of circular convolution (Crawford et al. 2016, www.doi.org/10.1111/cogs.12261). 
 
 
