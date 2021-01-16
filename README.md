@@ -1,5 +1,4 @@
-# Paired Associates Testing: Addressing
-Retroactive Interference with the Semantic Pointer Architecture
+# Paired Associates Testing: Addressing Retroactive Interference with the Semantic Pointer Architecture
 
 The classic A-B, A-C paired associates experiment was implemented using Nengo (www.nengo.ai) and the Semantic Pointer Architecture. 
 
